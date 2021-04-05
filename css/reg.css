@@ -1,0 +1,59 @@
+body {
+    background-color:#D1C4E9;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h2 {
+    text-align: center;
+    color: #ffbb2b;
+}
+
+#click_here {
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+/*
+.well {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+   
+}
+*/
+
+
+label
+{
+    color:#ffbb2b;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.button
+{
+    
+    width: 100px;
+    float: right;
+    font-size: 13px;
+    
+}
+
+
+.btn{
+    height:3.5rem;
+    width: 15rem;
+    background:  #512DA8;
+    color:#fff;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin:1rem 0;
+    box-shadow: 0 .3rem .5rem #D1C4E9;
+    opacity: .7;
+  }
+
+  .btn:hover{
+    opacity: 1;
+  }

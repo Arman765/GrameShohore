@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+.big-image {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("https://images.unsplash.com/photo-1554298819-74ec8c6acac6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80ges.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=80");
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* .overlay h1 {
+  font-size: 65px;
+  letter-spacing: 0px;
+  margin: 0 0 5px;
+}
+
+.overlay p {
+  margin: 0;
+  font-size: 28px;
+} */
+
+.btn{
+    height:3.5rem;
+    width: 15rem;
+    background:  #512DA8;
+    color:#fff;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin:1rem 0;
+    box-shadow: 0 .3rem .5rem #D1C4E9;
+    opacity: .7;
+  }
+  
+  .btn:hover{
+    opacity: 1;
+  }
+  ul {
+    color: white;
+    font-size: 25px;
+   
+    
+}
+ul a{
+    text-decoration: none;
+    color:white;
+}
+ul a:hover{
+    color:red;
+}

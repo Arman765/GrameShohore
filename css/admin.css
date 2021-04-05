@@ -1,0 +1,21 @@
+
+.well {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    height: 200px;
+}
+
+body {
+    background-image: url('img/2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h4 {
+    color: #ffbb2b;
+}
+
+ul {
+    color: white;
+    font-size: 13px;
+}
