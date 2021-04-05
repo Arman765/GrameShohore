@@ -34,7 +34,7 @@
                   <h3>Your Travel Partner</h3>
               </div>
               <div class="col-12 col-sm align-self-center">
-                  <img src="img/dice.png" class="img-fluid " alt="">
+                  <img src="img/dice2.png" class="img-fluid " alt="">
               </div>
                   
           </div>

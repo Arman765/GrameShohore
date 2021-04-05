@@ -8,7 +8,7 @@
 <nav class="navbar navbar-dark navbar-expand-md  fixed-top">
     <div class="container">
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" type="button"><span class="navbar-toggler-icon"></span></button>
-      <a class="navbar-brand ml-auto" href="#"><img src="img/dice.png" height="30" width="41"></a>
+      <a class="navbar-brand ml-auto" href="index.php"><img src="img/dice2.png" height="30" width="41"></a>
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <span class="navbar-text" style="font-size:20px;">GrameShohore</span>

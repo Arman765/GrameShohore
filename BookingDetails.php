@@ -13,9 +13,9 @@ if(isset($_POST['SaveData']))
     $TravelDate=$_POST['TravelDate'];
     // $com= $_POST['Com'];
     
-    $con=mysqli_connect("localhost","root","","grameshohore");
+    $con=mysqli_connect("remotemysql.com","55eGBl5Qlp","s4X5pcOBbl","55eGBl5Qlp");
     $query="INSERT into busservices(PassengerName,SeatBooked,Company,Departure,origin,destination,Travel_Date)VALUES('$Passenger_Name','$NumOfSeats' ,'$com','$Dep_time','$from','$to','$TravelDate')";
-    echo "$query";
+    
     $query_run=mysqli_query($con,$query);
 
     if($query_run)
