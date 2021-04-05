@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 05, 2021 at 07:36 PM
+-- Generation Time: Apr 05, 2021 at 08:45 PM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.3
 
@@ -55,10 +55,10 @@ INSERT INTO `busservices` (`PassengerName`, `SeatBooked`, `PassengerID`, `Compan
 CREATE TABLE `bus_schedules` (
   `Bus_ID` varchar(50) NOT NULL,
   `Company` varchar(50) NOT NULL,
-  `Departure` time NOT NULL,
+  `Departure` varchar(50) DEFAULT NULL,
   `origin` varchar(50) NOT NULL,
   `destination` varchar(50) NOT NULL,
-  `Travel_Date` date DEFAULT NULL
+  `Travel_Date` timestamp NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -66,13 +66,13 @@ CREATE TABLE `bus_schedules` (
 --
 
 INSERT INTO `bus_schedules` (`Bus_ID`, `Company`, `Departure`, `origin`, `destination`, `Travel_Date`) VALUES
-('1001', 'Green Line Paribahan', '00:00:00', 'Dhaka', 'Chittagong', '2021-03-29'),
-('1003', 'Unity transport', '00:00:00', 'Chittagong', 'CoxBazar', '2021-03-30'),
-('1002', 'London Express Ltd', '00:00:00', 'Dhaka', 'CoxBazar', '2021-03-31'),
-('1004', 'Tourist Mini Bus Rent & River Cruise', '00:00:00', 'Dhaka', 'Sylhet', '2021-04-02'),
-('1005', 'London Express Ltd', '00:00:00', 'Sylhet', 'Dhaka', '2021-04-06'),
-('1007', 'Tourist Mini Bus Rent & River Cruise', '00:00:00', 'Dhaka', 'Khulna', '2021-04-07'),
-('1008', 'Ena Transport', '00:00:00', 'Khulna', 'Sylhet', '2021-04-07');
+('1001', 'Green Line Paribahan', '2021-04-06', 'Dhaka', 'Chittagong', '2021-03-28 18:00:00'),
+('1003', 'Unity transport', '2021-04-06', 'Chittagong', 'CoxBazar', '2021-03-29 18:00:00'),
+('1002', 'London Express Ltd', '2021-04-06', 'Dhaka', 'CoxBazar', '2021-03-30 18:00:00'),
+('1004', 'Tourist Mini Bus Rent & River Cruise', '2021-04-06', 'Dhaka', 'Sylhet', '2021-04-01 18:00:00'),
+('1005', 'London Express Ltd', '2021-04-06', 'Sylhet', 'Dhaka', '2021-04-05 18:00:00'),
+('1007', 'Tourist Mini Bus Rent & River Cruise', '2021-04-06', 'Dhaka', 'Khulna', '2021-04-06 18:00:00'),
+('1008', 'Ena Transport', '2021-04-06', 'Khulna', 'Sylhet', '2021-04-06 18:00:00');
 
 -- --------------------------------------------------------
 
