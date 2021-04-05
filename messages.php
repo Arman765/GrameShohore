@@ -39,7 +39,7 @@
                                 <tbody>
                                     <?php
                                                         
-                                         $con=mysqli_connect("remotemysql.com","7gYPV79gv1","ydk3pGThZq","7gYPV79gv1");
+                                         $con=mysqli_connect("remotemysql.com","pxRJgOJqgd","xXYDeLVVpW","pxRJgOJqgd");
                                         $query= "SELECT * FROM contactdata";
                                         $query_run=mysqli_query($con,$query);
 

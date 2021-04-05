@@ -151,7 +151,7 @@
                                     { 
                                         $from_date=$_GET['from_date'];
                                         $to_date=$_GET['to_date'];
-                                        $con=mysqli_connect("remotemysql.com","7gYPV79gv1","ydk3pGThZq","7gYPV79gv1");
+                                        $con=mysqli_connect("remotemysql.com","pxRJgOJqgd","xXYDeLVVpW","pxRJgOJqgd");
                                         $query= "SELECT * FROM bus_schedules WHERE Travel_Date BETWEEN'$from_date'AND '$to_date'";
                                         $query_run=mysqli_query($con,$query);
 
